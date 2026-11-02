@@ -14,10 +14,16 @@ Ant Group,  China
 ### 0.0.1
 The initial NGCC submitted version.
 
+### 0.0.2
+NGCC-v0.0.2 author revision from leeweihanwickham/Chinith @ 5b5559e6 (includes Optimized_Implementation + Test_Vectors).
+
 ## Layout 
 
+Versioned packages live in `0.0.1/` and `0.0.2/`:
+
 - `Algorithm specifications/` — specification PDF  
-- `Implementations/Reference_Implementation/` — portable C reference code for each parameter set
+- `Implementations/` — portable C implementations (`Reference_Implementation/`; `Optimized_Implementation/` in 0.0.2)
+- `Test_Vectors/` — known-answer tests (0.0.2)
 
 | Scheme | Security | Parameter sets |
 |--------|----------|----------------|
